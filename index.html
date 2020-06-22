@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hotel Galifornia</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- header -->
+        <div class="row headerRow">
+            <div class="col navbar navbar-expand-md navbar-dark bg-dark fixed-top header">
+                <div class="navbar-brand d-flex align-self-end align-self-md-center px-2" id="digitalClock">Hotel
+                    Galifornia</div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"
+                    id="toggler-button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto" id="headerLinks">
+                        <li class="nav-item headerCategoriesLanding mt-4 mt-md-0 ml-md-1">
+                            <a class="nav-link headerLinkLogin" href=""></a></li>
+                        <li class="nav-item headerCategoriesLanding mt-3 mt-md-0 ml-md-1">
+                            <a class="nav-link headerLinkRegister" href=""></a></li>
+                        <li class="nav-item headerCategoriesLanding mt-4 mt-md-0 ml-md-1">
+                            <a class="nav-link headerLinkDeleteUser" href=""></a></li>
+                        <li class="nav-item headerCategoriesLanding mt-3 mt-md-0 ml-md-1">
+                            <a class="nav-link headerLinkPasswordRecovery" href=""></a></li>
+                        <li class="nav-item headerCategoriesLanding mt-3 mt-md-0 ml-md-1">
+                            <a class="nav-link headerLinkUsersList" href=""></a></li>
+                        <li class="nav-item headerCategoriesLanding mt-3 mt-md-0 ml-md-1 active">
+                            <span class="nav-link headerLinkSumAges">
+                                <span id="resultSumAges"></span></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END header -->
+
+        <!-- welcome -->
+        <div class="row welcomeRow">
+            <div class="col">
+                <span>
+                    <span>Nota informativa:</span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-dark btn-lg">Check In</button>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                    <button type="button" class="btn btn-dark btn-lg">Check Out</button>
+                </div>
+            </div>
+        </div>
+        <!-- END welcome -->
+
+        <!-- check in -->
+        <div class="row checkInRow">
+            <div class="offset-2 col-8 d-flex justify-content-center">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroup">Nombre del grupo</label>
+                        <input type="text" class="form-control" id="formGroupNameInputCheckIn" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroup">Número de personas</label>
+                        <input type="text" class="form-control" id="formGroupNumberInputCheckIn" placeholder="Personas">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroup">Número de noches</label>
+                        <input type="number" class="form-control" id="formGroupNightsInputCheckIn" placeholder="Noches">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroup">DNI del responsable del grupo</label>
+                        <input type="password" class="form-control" id="formGroupDniInputCheckIn" placeholder="DNI">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-dark mt-3">Check In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- END check in -->
+
+        <!-- check out -->
+        <div class="row checkOutRow">
+            <div class="offset-2 col-8 d-flex justify-content-center">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroup">Nombre del grupo</label>
+                        <input type="text" class="form-control" id="formGroupNameInputCheckOut" placeholder="Nombre">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-dark mt-3">Check Out</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- END check out -->
+
+        <!-- print bill -->
+        <div class="row printBillRow">
+            <div class="offset-3 col-6">
+                <span class="">
+                    `Sed ut perspiciatis unde omnis
+                    iste natus error sit voluptatem
+                    accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae
+                    ab illo inventore veritatis et
+                    quasi architecto beatae vitae
+                    dicta sunt explicabo.`
+                </span>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-dark mt-3">Imprimir factura</button>
+            </div>
+        </div>
+        <!-- END print bill -->
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
